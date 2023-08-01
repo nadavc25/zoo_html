@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+    <script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.115.4">
+    <title>Pandas</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="x.css">
+
+    <style>
+        /* Add custom styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            background-image: url("images/safari2.jpg"); /* Replace "path/to/background.jpg" with the actual path to your image file */
+            background-size: cover; /* This property ensures the image covers the whole background */
+            background-repeat: no-repeat; /* This property prevents the image from repeating */
+            background-attachment: fixed; /* This property fixes the background image so it doesn't scroll with the page */
+        }
+
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        header .navbar-brand {
+            font-size: 1.5rem;
+        }
+
+        main h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        main p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .album {
+            background-color: #f9f9f9;
+        }
+
+        .card {
+            border: none;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+        }
+
+        .card img {
+            border-top-left-radius: 0.5rem;
+            border-top-right-radius: 0.5rem;
+            object-fit: cover;
+            height: 200px;
+        }
+
+        .card-body {
+            padding: 1.5rem;
+            background-color: #fff;
+            border-bottom-left-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+        }
+
+        .accordion-button {
+            font-size: 1.1rem;
+            color: #333;
+            background-color: #f9f9f9;
+            border: none;
+            border-radius: 0.25rem;
+        }
+
+        .accordion-button:hover {
+            background-color: #eaeaea;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: #f1f1f1;
+        }
+
+        .accordion-body {
+            font-size: 1rem;
+        }
+
+        .accordion-body p {
+            margin-bottom: 0;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header data-bs-theme="dark">
+        pandas
+        <button>
+            <a href="index.html">home</a>
+        </button>
+    </header>
+
+    <main>
+        <!-- Add the section for the pandas content -->
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <!-- Update the content for pandas -->
+                    <h1 class="fw-light">Discover the Magic of Giant Pandas</h1>
+                    <p class="lead text-body-secondary">Welcome to the Panda Sanctuary! Our zoo is dedicated to
+                        conserving these charismatic black-and-white bears. Pandas are unique and endangered creatures,
+                        and we are committed to protecting them and their bamboo forest habitats. Witness their playful
+                        antics and adorable appearance as they munch on bamboo shoots. Learn about the challenges pandas
+                        face in the wild and the efforts being made to ensure their survival. Come and experience the
+                        enchantment of pandas up close!</p>
+                    <p>
+                        <!-- Add appropriate call-to-action buttons -->
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <!-- Update the image and content for pandas -->
+                            <img src="images/panda.jpg" alt="Panda" width="100%" height="200">
+                            <div class="card-body">
+                                <h2 class="accordion-button" data-bs-toggle="collapse" data-bs-target="#pandaCollapse"
+                                    aria-expanded="false" aria-controls="pandaCollapse">
+                                    Discover the magic of giant pandas
+                                </h2>
+
+                            </div>
+                        </div>
+                    </div>
+                    <p class="card-text">These captivating creatures are known for their unique
+                        black-and-white fur and gentle nature. As an endangered species, we are
+                        dedicated to their conservation, providing them a safe haven to live and
+                        thrive. Come and witness the charm of pandas up close, and support our
+                        mission to protect these incredible animals for a brighter future. Don't
+                        miss this opportunity to experience the wonder of pandas in person!</p>
+                </div>
+            </div>
+        </div>
+    </main>
