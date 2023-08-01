@@ -15,17 +15,6 @@ The Animal Sanctuary Project is built using HTML, CSS, and Bootstrap to create a
 
 3. **Zebras Page**: Journey with Zebras! Understand the striking features of zebras, their social behavior, and the challenges they face in the wild.
 
-## Screenshots
-
-### Pandas Page
-![Pandas Page](images/pandas_page.png)
-
-### Elephants Page
-![Elephants Page](images/elephants_page.png)
-
-### Zebras Page
-![Zebras Page](images/zebras_page.png)
-
 ## How to Run the Project
 
 To view the Animal Sanctuary website locally, follow these steps:
